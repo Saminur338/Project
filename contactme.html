@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Saminur's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="Secondary.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
 <body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html">SR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="education.html">Education</a>
+          <li class="nav-item">
+            <a class="nav-link" href="experiance.html">Experience</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Additional</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+              <li><a class="dropdown-item" href="coursework.html">Course Work</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactme.html">Contact Me</a>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
 
-<h1>Contact Me</h1>
-<p> 
-   
-                                                                                                                        
- </p>
+<h2>Contact Me</h2>
 
+<form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email" class="form-label">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Name" name="email">
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <label for="comment">Message:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    <button type="submit" class="btn btn-primary btn_clr">Submit</button>
+  </form>
+
+
+    
+  <footer>
+    <p>© Saminur Rahman 2022 All Rights Reserved</p>
+  </footer>
 </body>
 </html>

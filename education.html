@@ -1,14 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Saminur's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="Secondary.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
 <body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html">SR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="education.html">Education</a>
+          <li class="nav-item">
+            <a class="nav-link" href="experiance.html">Experience</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Additional</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+              <li><a class="dropdown-item" href="coursework.html">Course Work</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactme.html">Contact Me</a>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
 
-<h1>Education</h1>
-<p> New Jersey Institute of Technology (NJIT) - Newark, NJ                                                 Graduation Date: December 2023
-    B.S Information Technology
+  <h1>Education</h1>
+  <br>
+<div class="row">
+  <div class="col">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="njit.jpg" width="800" height="250" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">New Jersey Institute of Technology (NJIT)</h4>
+      <p class="card-text"> B.S Information Technology</h2>
+      <br><a href="https://www.njit.edu" target="_blank" class="btn btn-primary btn_clr ">More About NJIT</a>
+    </div>
+</div>
+</div>
+  <div class="col">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="pccc.jpg" width=50 height=400 alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Passaic County Community College (PCCC)</h4>
+      <p class="card-text"> A.S Computer Science</h2>
+      <br><a href="https://www.pccc.edu" target="_blank" class="btn btn-primary btn_clr ">More About PCCC</a>
 
-    Passaic County Community College (PCCC) - Paterson, NJ                                                     Graduation Date: May 2021
-    A.S Computer Science                                                                                                                      
- </p>
+    </div>
+  </div>
+</div>
 
+
+    <footer>
+      <p>© Saminur Rahman 2022 All Rights Reserved</p>
+    </footer>
 </body>
 </html>

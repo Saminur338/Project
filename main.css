@@ -2,5 +2,60 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
   }
+
+body{
+  background-color: #796842;
+  overflow-x: hidden;
+}
+
+.picture{
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+#outer{
+  background-color: #212529;
+  border-radius: 50%;
+  height:510px;
+  width:510px;
+  position: relative;
+  left: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.text{
+  color: black;
+  font-size: xx-large;
+  margin-top: 40%;
+}
+
+.textsub{
+  color:black;
+  font-size: x-large;
+}
+.card{
+  background-color: #796842;
+  border-width: 0px;
+}
+
+.cardhome{
+  position: absolute;
+}
+
+.btn_clr{
+  background-color: #212529;
+  border-width: 0px;
+}
+
+footer {
+  text-align: center;
+  left:0px;
+  bottom:0;
+  width:100%;
+  height:30px;
+  position:fixed;
+  background-color: #212529;
+  color: white;
+}
